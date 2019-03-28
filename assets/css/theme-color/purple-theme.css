@@ -1,0 +1,107 @@
+
+.menu-wrap li a:hover,
+.menu-wrap li a:focus {
+  color: #7171C6;
+}
+
+.download-btn{
+  background-color: #7171C6;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #7171C6;
+}
+
+.main-nav a:active {
+  color: #7171C6;
+}
+
+.title-area .title span{
+  color: #7171C6;
+}
+
+.title-area .title span.features{
+  color: #323299;
+}
+
+.title-area .title span.feedback{
+  color: #323299;
+}
+
+.title-area .title::before {
+  background-color: #7171C6;
+}
+
+.features-list li:hover .features-content h4{
+  color: #323299;
+}
+
+.features-list li:hover .fa{
+  background-color: #323299;  
+}
+
+.features-list i:hover{
+  background-color: #323299;
+  color: #fff;
+}
+
+.feature-price .single-plan-head{
+  background-color: #7171C6;
+}
+
+.single-plan-head p > span {
+  color: #7171C6; 
+}
+
+.single-plan-bottom .signup-btn {
+  background-color: #7171C6;
+}
+
+.screenshots-slide li a:hover{
+  border-color: #7171C6;  
+}
+
+.screenshots-slide .slick-dots li button:hover,
+.screenshots-slide .slick-dots li.slick-active button {
+  background-color: #7171C6;  
+}
+
+.single-download:hover,
+.single-download:focus{
+  background-color: #7171C6;
+}
+
+.testi-company{
+  color: #7171C6;  
+}
+
+.testi-text:before{  
+  color: #7171C6;
+}
+
+.testimonial-slider .slick-dots li.slick-active {
+  background-color: #7171C6; 
+}
+
+.subcr-form i {
+  color: #7171C6;  
+}
+
+.subcr-form .subcr-btn {
+  background-color: #7171C6;
+}
+
+.contact-form .form-control:focus {
+  border-color: #7171C6;
+}
+
+.send-btn:hover,
+.send-btn:focus{
+  background-color: #7171C6;
+}
+
+.home-btn a:hover,
+.home-btn a:focus{
+  color: #7171C6; 
+}

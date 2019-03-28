@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hackbattle-Arcs</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
+     <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/purple-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Cabin for Title -->
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <!-- Pacifico for Logo   -->
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+ 
+    </style>
+
+
+
+</head>
+
+<body>  
+
+  
+  <!-- Start menu area -->
+  <div class="nav-area">      
+    <a id="menu-btn" href="#"><i class="fa fa-bars"></i></a>
+    <nav class="main-nav" id="main-menu">
+      <span class="" id="close">
+        <a class="toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="26" viewBox="0 0 14 26">
+        <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-linecap="square" stroke-width="2" transform="translate(2 2)">
+        <path d="M0,11 L10,0"></path>
+        <path d="M0,22 L10,11" transform="matrix(1 0 0 -1 0 33)"></path>
+        </g>
+        </svg>
+        </a>
+      </span>
+      <ul>  
+        <li> <a href="#header"><i class="fa fa-home"></i><span>Home</span></a></li>
+        <li><a href="#features"><i class="fa fa-server"></i><span>Features</span></a></li>
+        <li><a href="#screenshot"><i class="fa fa-image"></i><span>Screenshots</span></a></li>
+        <li><a href="#download-app"><i class="fa fa-download"></i><span>Download</span></a></li>
+        <li><a href="#testimonial"><i class="fa fa-certificate"></i><span>Testimonials</span></a></li>
+        <li><a href="#contact"><i class="fa fa-envelope-o"></i><span>Contact</span></a></li>          
+      </ul>      
+    </nav>
+  </div>  
+  <!-- End menu area -->
+
+  <!-- Start header section --> 
+  <header id="header" style="height: 700px">
+    <div class="header-inner">
+      <!-- Header image -->
+      <img style="height: 55vh;width:70vw;background-size: contain;margin-left: 500px;margin-top: 120px" src="assets/images/icon.svg" alt="img">
+      <div class="overlay" style="">
+        <div class="header-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="header-top">
+                  <!-- Start logo area -->
+                  <div class="logo-area">
+                    <!-- Image based logo -->
+                    <a class="logo" href="index.html"><img height="120px;width:120px" src="assets/images/LOGO1.svg" alt="logo"></a>
+                    <!-- Text based logo -->
+                    <a class="logo" href="index.html">&nbsp;</a>
+                  </div>
+                  <!-- End logo area -->                 
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="header-bottom">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="header-bottom-left">
+                      <h1 style="color: #0f0c29;">Shield</h1>
+                      <p>XYZ</p>
+                      <a style="margin-top: 60px" class="theone" href="https://play.google.com/store/apps/details?id=io.vit.vitio&hl=en"><img src="assets/images/google-play-white.png"></a>
+                      <a style="margin-top: 60px" class="theone" href="https://play.google.com/store/apps/details?id=io.vit.vitio&hl=en"><img height="50" width="200" style="border-radius:10px" src="assets/images/ios.jpg"></a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="header-bottom-right">
+                      <!-- <img src="assets/images/iphone-group1.png" alt="iphone grpup img"> -->
+                      <!-- <img src="assets/images/Nexus-6-MockUp-group.png" alt="iphone grpup img"> -->
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </header>
+  <!-- End header section --> 
+
+  <!-- Start Features -->
+  <section id="features" style="background-image:url(assets/images/12.svg);">
+    <canvas id="canvas-bubbles" class="abs-tl fill-dimensions" width="1347" height="667"></canvas>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Awesome <span class="features">Features</span></h2>
+            <p>Get your course details, venue information, time-table, faculty information, academics spotlight and virtually everything deftly organised at one place.</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="features-area">
+            <div class="row">
+              <!-- Start features left -->
+              <div class="col-md-4">
+                <div class="features-left">
+                  <ul class="features-list features-list-left">
+                    <li class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                      <i class="fa fa-desktop"></i>
+                      <div class="features-content">
+                        <h4>User Interface</h4>
+                        <p>Sleek, distinctive, clean User Interface.</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.75s">
+                      <i class="fa fa-edit"></i>
+                      <div class="features-content">
+                        <h4>Attendance</h4>
+                        <p>Get real time attendance updates: Maintain 75% criteria.</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                      <i class="fa fa-object-ungroup"></i>
+                      <div class="features-content">
+                        <h4>Cross Campus</h4>
+                        <p>Supports both VIT Chennai and Vellore. Multi Campus App</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                      <i class="fa fa-flask"></i>
+                      <div class="features-content">
+                        <h4>Easy to Use</h4>
+                        <p>Every minute course detail is now just one click away.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End features left -->
+              <!-- Start features img -->
+              <div class="col-md-4">
+                <div class="feature-img wow fadeInUp">
+                  <img src="assets/images/main.png" alt="iPhone mockup">
+                </div>
+              </div>
+              <!-- End features img -->
+              <!-- Start features right -->
+              <div class="col-md-4">
+                <div class="features-right">
+                  <ul class="features-list features-list-right">
+                    <li class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                      <i class="fa fa-rocket"></i>
+                      <div class="features-content">
+                        <h4>Spotlight</h4>
+                        <p>Real Time Spotlight Apprises with all new updates</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInRight" data-wow-duration="0.75s" data-wow-delay="0.75s">
+                      <i class="fa fa-cogs"></i>
+                      <div class="features-content">
+                        <h4>Time Table</h4>
+                        <p> Time-table information : Be all time ready</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                      <i class="fa fa-heart"></i>
+                      <div class="features-content">
+                        <h4>User Friendly</h4>
+                        <p>Helpful Campus map for VIT, Vellore Campus.</p>
+                      </div>
+                    </li>
+                    <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                      <i class="fa fa-support"></i>
+                      <div class="features-content">
+                        <h4>Faculty/Venue</h4>
+                        <p>All the details regarding Faculty and Venue.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>   
+              <!-- End features right -->                 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Features -->
+
+  <!-- Start screenshot -->
+  <section id="screenshot">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area wow fadeInUp">
+            <h2 class="title">App <span>Screenshots</span></h2>
+            <p>bvwkrjel weiufhbvwiwsnfklcnsbinefhslfnwuo;vimhsdvnbsjiapijjhkhi qhkjdq;aok</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="screenshots-area">
+            <ul class="screenshots-slide">
+              <li class="col-md-3 wow fadeInLeft">
+               <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-5-popup.png"><img src="assets/images/screen-5.png" alt="app screenshot">
+                -->   <div class="view-btn-area">
+                    <span class="fa fa-search view-btn"></span>
+                  </div>
+               </a>
+              </li>
+               <li class="col-md-3 wow fadeInLeft">
+                 <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-2-popup.png"><img src="assets/images/screen-2.png" alt="app screenshot">
+                  -->   <div class="view-btn-area">
+                      <span class="fa fa-search view-btn"></span>
+                    </div>
+                 </a>
+              </li>
+               <li class="col-md-3 wow fadeInLeft">
+                 <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-3-popup.png"><img src="assets/images/screen-3.png" alt="app screenshot">
+                  --> <div class="view-btn-area">
+                    <span class="fa fa-search view-btn"></span>
+                  </div>
+               </a>
+              </li>
+               <li class="col-md-3 wow fadeInLeft">
+                 <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-4-popup.png"><img src="assets/images/screen-4.png" alt="app screenshot">
+                  --> <div class="view-btn-area">
+                    <span class="fa fa-search view-btn"></span>
+                  </div>
+               </a>
+              </li>
+              <li class="col-md-3 wow fadeInLeft">
+                 <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-1-popup.png"><img src="assets/images/screen-1.png" alt="app screenshot">
+                  --> <div class="view-btn-area">
+                    <span class="fa fa-search view-btn"></span>
+                  </div>
+               </a>
+              </li>
+               <li class="col-md-3 wow fadeInLeft">
+                 <!-- <a class="fancybox" data-fancybox-group="gallery" href="assets/images/screen-6-popup.png"><img src="assets/images/screen-6.png" alt="app screenshot">
+                  --> <div class="view-btn-area">
+                    <span class="fa fa-search view-btn"></span>
+                  </div>
+               </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End screenshot -->
+
+  <!-- Start download app -->
+  <section id="download-app">
+    <div class="download-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-area wow fadeInUp">
+              <h2 class="title">Download <span>App</span></h2>
+              <p>Get rid of the coarse UI of the website and get your hands on Shield. An essential apparatus for every people.</p>
+            </div>
+          </div>
+          <!-- Start download app content -->
+          <div class="col-md-12">
+            <div class="download-app-content">
+              
+              <!-- Start single download -->
+              <a class="single-download wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.75s" href="https://play.google.com/store/apps/details?id=io.vit.vitio&hl=en">
+                <div class="download-icon">
+                  <i><img src="assets/images/google_play.png"></i>
+                </div>
+                <div class="download-content">
+                  <p>Available on the</p>
+                  <span>Play Store</span>
+                </div>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End download app -->
+
+  <!-- Start testimonial -->
+  <!-- <section id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area wow fadeInLeft">
+            <h2 class="title"><span class="feedback">Feedback</span></h2>
+            <p>See what people have to say.</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="testimonial-slider"> -->
+            <!-- single slide -->
+            <!-- <div class="testimonial-single-slide">               
+              <img class="testi-avatar" src="assets/images/testi1.jpg" alt="testimonial img">
+              <p class="testi-name">Divyansh Parashar</p>
+              <p class="testi-company">App Store</p>
+              <p class="testi-text">Wow! UI rehaulled. Much appreciated</p>
+            </div> -->
+            <!-- single slide -->
+            <!-- <div class="testimonial-single-slide">               
+              <img class="testi-avatar" src="assets/images/testi3.jpg" alt="testimonial img">
+              <p class="testi-name">Rajat Mukati</p>
+              <p class="testi-company">App Store</p>
+              <p class="testi-text">Awesome app! All essentials in one single app.</p>
+            </div> -->
+            <!-- single slide -->
+           <!--  <div class="testimonial-single-slide">               
+              <img class="testi-avatar" src="assets/images/testi2.jpg" alt="testimonial img">
+              <p class="testi-name">Vinit Shahdeo</p>
+              <p class="testi-company">App Store</p>
+              <p class="testi-text">Very useful app for VITians.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>      
+  </section> -->
+  <!-- End testimonial -->
+
+  <!-- Start subscribe -->
+  <section id="subscribe">
+    <div class="download-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-area wow fadeInUp">
+              <h2 class="title">Subscribe For <span>Updates</span></h2>
+              <p>For regular updates related to Shiled app just type in your email below.</p>
+            </div>
+          </div>
+          <!-- Start download app content -->
+          <div class="col-md-12">
+            <div class="subscribe-content wow fadeInLeft">
+              <form action="" class="subcr-form">
+                <i class="fa fa-envelope-o"></i>
+                <input type="text" name="" id="" placeholder="Type your mail address..">
+                <button type="submit" class="subcr-btn">Subscribe</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End download app -->
+
+  <!-- Start contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+              <h2 class="title">Get in <span>Touch</span></h2>
+              <p>Feel free to send us suggestions for the improvement of the app. You can also use the feedback section in the app for this.</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="contact-area">
+            <form action="" class="contact-form">
+              <div class="form-group">                  
+                <input type="text" class="form-control" placeholder="Your name">
+              </div>
+              <div class="form-group">                  
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">                  
+                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              </div>
+              <div class="send-area">
+                <button type="submit" class="send-btn">Send Now</button>
+              </div>  
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End contact -->
+
+  <!-- Start footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-social">
+            <!-- <a href="https://www.facebook.com/gdgvitvellore/"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/princebansal/MyVIT"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/princebansal/MyVIT#fork-destination-box"><i class="fa fa-code-fork"></i></a>
+            <a href="https://github.com/login?return_to=%2Fprincebansal%2FMyVIT"><i class="fa fa-star"></i></a> -->
+          </div>
+          <div class="footer-text">
+            <p>Code with love by <a href="#">U A S R P</a></p>
+          </div>
+          <span id="rocket-holder" class="rocket-holder maxw-22 display--inline pb-l cursor">
+                <span class="rocket-inner display--inline">
+                    <svg class="width-100 height-50p" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 6.521 191.792 431.87">
+                    <g id="flame-wrapper" class="flame-wrapper">
+                    <path class="flame trans" fill="#fff" d="M54.794 342.461c41.095-41.095 82.19 0 82.19 0v54.848l-27.424-27.424-13.657 68.506-13.685-68.506-27.41 27.41-.014-54.834z"></path>
+                        <g id="rocket-body">
+                    <path fill="#fff" d="M191.147 270.929c-.145-16.486-6.576-30.208-19.035-40.987-3.086-2.67-6.553-4.933-9.994-7.149-1.766-1.137-2.444-2.33-2.418-4.479.149-12.123.084-24.248.149-36.372.062-11.047-.336-22.074-1.403-33.068-3.44-35.431-12.791-69.145-29.503-100.685-7.164-13.523-15.511-26.267-25.42-37.96-1.894-2.234-4.206-3.612-7.155-3.707-.162-.005-.314.01-.473.011-.157-.001-.309-.016-.471-.011-2.95.095-5.262 1.473-7.155 3.707-9.91 11.694-18.255 24.437-25.421 37.96-16.71 31.541-26.061 65.254-29.502 100.685-1.068 10.994-1.466 22.021-1.404 33.068.067 12.124 0 24.249.15 36.372.026 2.149-.652 3.342-2.417 4.479-3.442 2.217-6.908 4.479-9.993 7.149C7.222 240.721.79 254.442.646 270.929c-.125 14.297.029 28.595.061 42.891.006 2.534-.03 5.067.036 7.601.093 3.537 2.428 6.479 5.828 7.435 2.56.72 4.862.129 7.033-1.331 8.158-5.484 16.333-10.945 24.5-16.414 7.324-4.906 15.413-7.308 24.208-7.366 5.428-.035 10.859-.033 16.289-.038.58-.001 1.162.058 1.945.101l15.351-.09 15.351.09c.784-.043 1.364-.102 1.946-.101 5.43.005 10.858.003 16.288.038 8.795.059 16.883 2.46 24.208 7.366 8.167 5.469 16.343 10.93 24.5 16.414 2.171 1.46 4.473 2.051 7.033 1.331 3.398-.955 5.735-3.897 5.827-7.435.066-2.533.03-5.066.036-7.601.032-14.297.186-28.594.061-42.891zm-95.251-97.965c-15.39 0-27.869-12.479-27.869-27.869 0-15.392 12.479-27.869 27.869-27.869 15.393 0 27.87 12.478 27.87 27.869-.001 15.39-12.477 27.869-27.87 27.869z"></path>
+                        </g>
+                        </g>
+                    </svg>
+                </span>
+                <span class="font-times scroll-top__label mobile-hidden trans f-17">return</span>
+                            </span>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End -->
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>   
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+  <!-- Wow animation -->
+  <script type="text/javascript" src="assets/js/wow.js"></script> 
+  <!-- Off-canvas Menu -->   
+  <script src="assets/js/classie.js"></script>
+ 
+  <!-- Custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+    
+  </body>
+</html>

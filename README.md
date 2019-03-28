@@ -1,1 +1,1 @@
-# Hackbattle/Arcs
+# Arcs Hackathon
